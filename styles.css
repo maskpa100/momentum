@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+}
+/* Блок времени и даты */
+#time {
+  font-size: 48px;
+  margin-top: 50px;
+}
+#date {
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+/* Блок погоды */
+#weather-widget {
+  margin: 20px auto;
+  padding: 20px;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+#city{
+  padding-top: 5px;
+}
+#temp{
+  padding-top: 5px;
+}
+#weather{
+  padding-top: 5px;
+}
+
+/* Блок задач */
+#tasks {
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+}
+
+#taskInput {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(230, 230, 230, 0.9);
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+span{
+  color: #000;
+}
